@@ -8,4 +8,6 @@
     <string name="register_new_account">Register new account</string>
     <string name="add_note">Add note</string>
     <string name="choose_photo">Choose photo</string>
+    <string name="photo_chosen">Photo chosen</string>
+    <string name="empty_hint">Notes list empty</string>
 </resources>

@@ -38,6 +38,9 @@ class NotesFragment : Fragment(R.layout.fragment_notes) {
         viewModel.notesLiveData.observeNotNull(viewLifecycleOwner) { notes ->
             adapter.attachData(notes)
             progressBar.isVisible = false
+            recyclerView.suppressLayout(false)
+
+            emptyHint.isVisible = notes.isEmpty()
         }
     }
 
@@ -55,6 +58,7 @@ class NotesFragment : Fragment(R.layout.fragment_notes) {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 viewModel.removeNote(viewHolder.adapterPosition)
                 progressBar.isVisible = true
+                recyclerView.suppressLayout(true)
             }
         }
 

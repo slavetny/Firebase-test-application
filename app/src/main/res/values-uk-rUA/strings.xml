@@ -9,4 +9,6 @@
     <string name="register_new_account">Зареєструйте новий акаунт</string>
     <string name="add_note">Додати нотатку</string>
     <string name="choose_photo">Виберіть фото</string>
+    <string name="empty_hint">Список нотаток порожній</string>
+    <string name="photo_chosen">Фото вибрано</string>
 </resources>
