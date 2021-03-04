@@ -11,4 +11,5 @@
     <string name="choose_photo">Виберіть фото</string>
     <string name="empty_hint">Список нотаток порожній</string>
     <string name="photo_chosen">Фото вибрано</string>
+    <string name="enter_note_text_hint">Введіть тут текст нотатки:</string>
 </resources>

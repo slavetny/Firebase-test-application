@@ -10,4 +10,5 @@
     <string name="choose_photo">Choose photo</string>
     <string name="photo_chosen">Photo chosen</string>
     <string name="empty_hint">Notes list empty</string>
+    <string name="enter_note_text_hint">Enter note text here:</string>
 </resources>

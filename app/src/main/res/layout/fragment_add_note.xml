@@ -9,8 +9,11 @@
     <EditText
         android:id="@+id/noteTextField"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter note text here:"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/enter_note_text_hint"
+        app:layout_constraintBottom_toTopOf="@+id/choosePhotoButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
