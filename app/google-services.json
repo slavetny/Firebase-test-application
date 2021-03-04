@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792985635207",
+    "project_id": "test-task-ed168",
+    "storage_bucket": "test-task-ed168.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792985635207:android:30eb395c4d210c1b4ceb22",
+        "android_client_info": {
+          "package_name": "com.slavetny.firebasetesttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792985635207-djb33uuaruuvva1nf605gj6o86ae1r1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoeGrjbceEg7Hj_eWE_OmlFuozdXIpEaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792985635207-djb33uuaruuvva1nf605gj6o86ae1r1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

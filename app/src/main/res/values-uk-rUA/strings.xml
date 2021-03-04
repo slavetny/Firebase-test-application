@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirebaseTestTask</string>
+    <string name="enter_email_hint">Введіть електронну адресу</string>
+    <string name="login">Логін</string>
+    <string name="enter_password_hint">Введіть пароль</string>
+    <string name="confirm_password_hint">Підтвердіть пароль</string>
+    <string name="registration">Реєстрація</string>
+    <string name="register_new_account">Зареєструйте новий акаунт</string>
+    <string name="add_note">Додати нотатку</string>
+    <string name="choose_photo">Виберіть фото</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.slavetny.firebasetesttask.presentation.screen.notes.NotesFragment"
+        tools:layout="@layout/fragment_notes"
+        android:label="Notes Fragment" >
+        <action
+            android:id="@+id/action_notesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.slavetny.firebasetesttask.presentation.screen.addnote.AddNoteFragment"
+        tools:layout="@layout/fragment_add_note"
+        android:label="Add Note Fragment" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.slavetny.firebasetesttask.presentation.screen.login.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:label="Login Fragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.slavetny.firebasetesttask.presentation.screen.registation.RegistrationFragment"
+        tools:layout="@layout/fragment_registration"
+        android:label="Registration Fragment" >
+        <action
+            android:id="@+id/action_registrationFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+
+</navigation>
